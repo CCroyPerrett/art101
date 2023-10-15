@@ -7,3 +7,45 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+.Name {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-emphasis: 10px;
+  font-size: large;
+  }
+
+  .Title {
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-emphasis: 8px;
+    font-size: medium;
+    }
+
+.Desc {
+  color: rgb(255, 255, 255);
+  font-size: medium ;
+  font-size-adjust: 300px;
+  }
+
+section{
+  background-color: rgb(236, 170, 236);
+  border: solid 8px rgb(181, 141, 214);
+}
+
+html{
+  background-color: rgb(143, 205, 230);
+}
+
+#content {
+  color: rgb(0, 0, 0);
+  font-size: medium ;
+  font-size-adjust: 300px;
+  }
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  }
