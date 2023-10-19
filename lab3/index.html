@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 3 - File Structure and File Transfer</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -19,33 +19,83 @@
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
-<body>
+<body >
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 3 - File Structure and File Transfer</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>The main purpose of this lab was to become more familliar with sturucturing and transfering files,
+					    particularly is the VSCode and Github programs. In addition we learned more about practicing the 
+					ins and outs of CSS and HTML, including employing divs, sections, classes and ids in to order our
+				website in a desired manner.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>While I did already have some experince building websites from Lab 2, on this attempt I had to deal
+						with some more complex features. 
+							The first obstacle I wish to discuss ismy implimentation of the sparkles to the sides of my Homepage's title,
+						wanting to inject some extra life into the page. While Inserting the images themselves was easy enough, it took
+						much trial and error to make them inline with the text itself. I was eventually able to achieve this after
+						discovering the "span" html tag, did not have the automatic newline features that the "p" text option implimented.
+						However, the text was not enlarged, so this needed to be achieved with a seperate ID and CSS settings. 
+							Another flourish that I added to my website (which proved difficult) was the list of my personal projects that I would like people to visit
+						in the middle of my page. While making an unordered list was simple enough, it was more challenging to find how to arrange
+						the elements in a horizontal manner. I was eventually able to achieve this with the "display: inline block" CSS setting.
+						With this, the items in the list would be organized in horizontal segments, instead of taking up a whole new line for each entry.
+							This was more of an artistic difficulty than a technical one, but it was challenging to find a good color scheme for the site.
+						one can change the color of different elements easily in CSS, but making them match well in a different manner. There were a few occasions
+						where I chose colors that I thought were just swell on their own, but looked absolutley horrendous once the site loaded and they
+						were put together. I was able to settle on a unifying color scheme by taking inspiration of one of my favorite characters, and using
+						colors typically assosiated with them. Can you guess <a href="https://preview.redd.it/b3px90jwsix51.png?width=450&format=png&auto=webp&s=71a1b64a2cb3cd71c744cc7f5972f04989485a3d">who</a>? (Most likley not if you weren't obsessed
+						with webcomimcs of the 2010s, but I love using them as a profile picture!)
+
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? 
+						As I am going to be using this website as a homepage for quite some time, I didn't want to just throw in the minimum and quit. This was my
+						first website! I wanted to learn to make it ✧･ﾟsparkle*✧･ﾟ! While some changes I expected to be difficult were easy to impliment (images, changing color)
+						many other elements I expected to be simple were quite frustrating to make work, taking much trial and error (images in line with text, horizontally
+						ordered lists, etc). I have a newfound respect for those who have the dedication to build websites 
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<p>The final results of this work can be found here, making up this webpage and that of my <a href="https://eldritchsalamancer.github.io/art101/">homepage</a>!
+						In addition, snippits of code from the creation of these projects can be seen below!
+					</p>
+					<div id="output">
+						<ul id="maraut">
+							<li></li>The directory created for these labs and more!<br>
+							 <img src="img\art101 directory.PNG"/> </li>
+							<br>
+							<li>Some of the code used for my homepage! That... is a lot of text..<br>
+							<img src="img\art101index editor.PNG"/></li>
+							<br>
+							<li> The code used for this page itself Woah, inception!<br>
+							<img src="img\art101lab3code.PNG"/></li>
+							
+
+							     
+
+						</ul>
+
+					</div>
 			</div>
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
+			<ul>
+				<li><a href="https://eldritchsalamancer.github.io/art101/">My Homepage!</a></li>
+				<li><a href="..\PDFs\ART101 Lab 2-1.pdf">Lab 1 PDF!</a></li>
+				<li><a href="https://eldritchsalamancer.github.io/art101/lab2/">Lab 2 Webpage!</a></li>
+			</ul>
 		</nav>
 	</main>
 </body>
