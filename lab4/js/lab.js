@@ -1,6 +1,6 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Chase Croy-Perrett and Joe
+// Date: 23rd of October, 2023
 
 // Constants
 
