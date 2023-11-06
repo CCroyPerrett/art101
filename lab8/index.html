@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 8 - Anon Functions and Callbacks</title>
+	<!--<script type="text/javascript" src="./js/lab.js" DEFER></script>-->
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 8 - Anon Functions and Callbacks</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>Experiment with anonymous functions and callbacks in the console as well as in a javascript file.</p>
+					
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>We had a lot of problems trying to get the prompt() function to work along side with printing the results of that on the webpage. We eventually found 
+						out that we needed to use document.open() and move the script statement towards the bottom so it would print there instead of replacing the entire webpage.
+					</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>We were able to do something funny for the functions we created and everything worked out for us very well. Aside from the text input issues, we were able to
+						learn and understand more about callbacks and anonymous functions through this lab. </p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+						<p>Original Array: [9,1,32,69,420,24]</p>
+						<p>Array made funny by multiplying 420/69: [54.78260869565217, 6.086956521739131, 194.7826086956522, 420, 2556.521739130435, 146.08695652173913]</p>
+						<p>Array made funny by multiplying 69/420: [1.4785714285714286, 0.16428571428571428, 5.257142857142857, 11.335714285714285, 69, 3.942857142857143]</p>
+					<div id="output"></div>
+						<script type="text/javascript" src="./js/lab.js"></script>
+			</div>
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+		</nav>
+	</main>
+</body>
+</html>
