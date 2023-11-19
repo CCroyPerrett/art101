@@ -111,7 +111,7 @@ function split(userName, anagram, validarray){
 
   if(full){
     console.log("anagram is full");
-    return [anagram];
+    return [anagram.toLowerCase()];
   }
 
   return newanagrams;
