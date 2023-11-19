@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 11 - Javascript Events and Forms</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,27 +23,39 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 11 - Javascript Events and Forms</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>Create an input box in an html document with a button that will take the input and turn it into a variable. Modify the input with the sort
+						name function from several labs ago and print it on the screen.</p>
 			</div>
-
-			<input type="text" id=""input> </input>
-
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p> At first, we worked through getting the input and button to work exactly as we wanted. All of it was fixed via trial and error.
+						We had a problem where the input would delete the button and input boxes, but it turned out we just needed to use .append not .html.
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>This assignment went by very quickly. We knew how to do most of the implementation due to going over it in class, and we also had
+						our sortname function that we just took from the previous lab. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<div id="output">
+						<input type="text" id="user-name" placeholder="Input your name"></input>
+						<!-- <button onclick="display()" id="submit">Submit</button> -->
+						<button id="submit">Submit</button>
+						<br> <p>And here is the alphabetically sorted version of your name!</p>
+					</div>
+						<input type="text" id="user-anagram" placeholder="Input your name"></input>
+						<!-- <button onclick="display()" id="submit">Submit</button> -->
+						<button id="anagram">Submit</button>
+						<br> <p>And here are all the anagrams of your name!</p>
+				    <div id="output2">
+					</div>
 			</div>
 		</section>
 		<nav id="links">
