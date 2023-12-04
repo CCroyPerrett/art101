@@ -75,7 +75,15 @@ function doajax2(id){
           console.log(data)
           pokemon = data.name;
           pokemon = pokemon.charAt(0).toUpperCase() + pokemon.slice(1)
-          pokemon = pokemon + "<br><img src = '" + "https://assets.pokemon.com/assets/cms2/img/pokedex/full/" + id + ".png'>"
+          if(id >= 100){
+            pokemon = pokemon + "<br><img src = '" + "https://assets.pokemon.com/assets/cms2/img/pokedex/full/" + id + ".png'>"
+          }
+          else if(id >= 10){
+            pokemon = pokemon + "<br><img src = '" + "https://assets.pokemon.com/assets/cms2/img/pokedex/full/0" + id + ".png'>"
+          }
+          else{
+            pokemon = pokemon + "<br><img src = '" + "https://assets.pokemon.com/assets/cms2/img/pokedex/full/00" + id + ".png'>"
+          }
           $("#output2").html(pokemon)
       },
       error: function(jqXHR, textStatus, errorThrown) {
