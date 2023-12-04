@@ -27,22 +27,33 @@
 			<h1>Lab 15 - AJAX</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p></p>
+					<p>Using AJAX, get information from an API and display that information on the web page.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>At first, it was difficult for us because we found AJAX to be quite complicated compared to other topics covered in this
+					course. This is probably because of our prior programming knowledge that helped us through most other assignments, but
+					this assignment was different because we had never worked with anything like AJAX before. After following the lectures, we finally
+					got somewhere with the formula given to us. The main problem though was that we needed to provide an ID number in the url and we didn't know
+					what to return. Eventually we came up with the random berry and pokemon generator which gave it a purpose without us having to go deep
+					into the parts of the API that we didn't understand. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
 					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
 			</div>
-
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<!--(Cheri, Chesto, Pecha, Rawst, Aspear, Leppa, Oran, Sitrus, Persim)-->
+					<div id="output">
+						<!--<input placeholder="Input a Pokemon Berry" id="pokeinput"></input> -->
+						<button id="pokebutton" onclick="getBerryInfo()">Find a Berry!</button>
+						<div id="berrydata"></div>
+					</div>
+					<button id="my-button">Random Pokemon Generator</button> 
+					<div id="output2"></div>
 			</div>
 		</section>
 		<nav id="links">

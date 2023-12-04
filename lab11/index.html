@@ -50,10 +50,11 @@
 						<button id="submit">Submit</button>
 						<br> <p>And here is the alphabetically sorted version of your name!</p>
 					</div>
-						<input type="text" id="user-anagram" placeholder="Input your name"></input>
+						<input type="text" id="user-anagram" placeholder="Input your name" maxlength="9"></input>
 						<!-- <button onclick="display()" id="submit">Submit</button> -->
 						<button id="anagram">Submit</button>
-						<br> <p>And here are all the anagrams of your name!</p>
+						<br> <p>And here are all the anagrams of your name! <br>
+						(Character limit 9 due to exponential runtime growth).</p>
 				    <div id="output2">
 					</div>
 			</div>

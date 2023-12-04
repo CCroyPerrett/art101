@@ -49,6 +49,20 @@ function sortname(userName) {
   //code taken from Wes Modes
 }
 
+function GlitchPage(){
+  for(var i = 1; i <= 10; i++){
+    setTimeout(i * 1000 - 500, Danceforward)
+  }
+}
+
+function Danceforward(){
+  $("h1").css("","");
+}
+
+function Danceback(){
+  
+}
+
 function anagram(userName){
   var anagrams = []; //array containing different anagrams
   var validarr = [];
