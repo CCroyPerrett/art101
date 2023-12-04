@@ -122,7 +122,7 @@ function berryImg(msg, name){
       break;
     case("aspear"):
       console.log("got into switch");
-      msg = msg + "https://ahost2.bulbagarden.net/content/bulbagarden/images/bg-green-2x-optim.png";
+      msg = msg + "https://archives.bulbagarden.net/media/upload/a/af/Dream_Aspear_Berry_Sprite.png";
       break;
     case("leppa"):
       console.log("got into switch");
