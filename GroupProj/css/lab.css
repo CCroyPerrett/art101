@@ -1,4 +1,5 @@
 
+
 body {
   border: solid 10px rgb(13, 71, 179);
   background-color: rgb(241, 218, 65);
@@ -85,4 +86,4 @@ body.party {
     outline-width: 30px;
     outline-offset: -15px;
   }
-}   
+}  

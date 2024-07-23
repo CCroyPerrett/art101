@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Group Project: Where is my SC Bus?</title>
+         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <!-- <script src="js/index.js" DEFER></script> -->
+        <script src="js/test.js" DEFER></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script> 
+        <!--<script type="text/javascript" src="remotestorage.js"></script> -->
+    </head>
+    <body>
+        <div id="input-output">
+            <h3>Which Bus route are you using?</h3>
+            <select name="Bus Route" id="route">
+                <option value="loop">Loop</option>
+                <option value="metro10">Metro 10</option>
+                <option value="metro15">Metro 15</option>
+                <option value="metro18">Metro 18</option>
+                <option value="metro19">Metro 19</option>
+                <option value="metro20">Metro 20</option>
+            </select><br>
+            
+            <h3>Where are you waiting?</h3>
+            <select name="Bus Stop" id="stop">
+                <option value="mainent">Main Entrance</option>
+                <option value="eastrem">East Remote</option>
+                <option value="booksto">Bookstore</option>
+                <option value="cromer">Crown/Merrill</option>
+                <option value="collew">College 9/Lewis</option>
+                <option value="scihil">Science Hill</option>
+                <option value="kresge">Kresge</option>
+                <option value="porrac">Porter/Rachel Carson</option>
+                <option value="oakes">Oakes</option>
+                <option value="wesrem">West Remote</option>
+            </select><br>
+            
+            <h3>When did the bus arrive?</h3>
+            <select name="Bus Arrive" id="arrive">
+                <option value="early">Early</option>
+                <option value="ontime">On Time</option>
+                <option value="late">Late</option>
+            </select><br>
+            <div id="party-toggle" class="col-1">
+            <button onclick="getData()">Submit</button>
+            </div>
+        </div>
+        <div id="map">
+        <img src="img/map.jpg" width="500px"><br>
+        <br>
+        </div>
+          <div id="output">
+
+            <h3>Our Gathered Statistics</h3> 
+
+            <canvas id="timeChart" style="width: 300px; max-width: 350px;
+            display: block; height: 332px;" width="830" height="415"
+            class="chartjs-render-monitor"></canvas>
+            
+            
+
+          </div>
+        </div>
+    </body>
+</html>
